@@ -1,0 +1,12 @@
+{
+  "name": "karrat-voting",
+  "version": "0.1.0",
+  "author": "your-github-handle",
+  "description": "Snapshot strategy using getVotes to determine correct voting power for KARRAT token, supporting delegated and self-held votes.",
+  "about": "Counts on-chain delegated votes and self balances accurately by using ERC20Votes' getVotes.",
+  "examples": [
+    "Example: User holds 10,000 KARRAT with no delegation → getVotes = 10,000.",
+    "Example: User delegates their 10,000 KARRAT to another wallet → getVotes = 0, delegate's getVotes increases."
+  ],
+  "schema": "schema.json"
+}
