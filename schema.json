@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "string",
+      "title": "KARRAT Token address",
+      "examples": ["0xAcd2c239012D17BEB128B0944D49015104113650"]
+    }
+  },
+  "required": ["address"]
+}
